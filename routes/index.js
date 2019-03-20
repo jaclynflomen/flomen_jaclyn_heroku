@@ -12,10 +12,11 @@ router.get('/', function(req, res, next) {
       console.log(err);
     }else{
       console.log(result);
-      res.render('index', { images: result });
+      res.render('index', { image: result });
     }
   });
 });
 
 
 module.exports = router;
+
