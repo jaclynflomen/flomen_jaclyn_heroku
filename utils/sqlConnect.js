@@ -1,5 +1,5 @@
 var mysql = require('mysql');  //like php require / require_once
-var config = require('../config');
+var config = require('..config');
 
 const connect = mysql.createConnection({
     host: config.host,
