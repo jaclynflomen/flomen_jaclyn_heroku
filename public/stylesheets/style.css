@@ -9,6 +9,10 @@ h3, h2 {
   color: black;
 }
 
+video {
+  width: 90%;
+}
+
 
 @media screen and (max-width: 480px) {
   #appleLogo {

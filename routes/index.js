@@ -5,7 +5,7 @@ const data = require('../data');
 
 /* GET home page. */ //this just gets the root
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Apple' }); 
+  res.render('index', { title: 'Apple AirPods' }); 
   //message: "Welcome to your first Express app" });
 });
 
