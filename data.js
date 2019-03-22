@@ -1,19 +1,13 @@
 const data = {
-    name: "Trevor",
-    role: "confuserator",
+    name: "Jaclyn",
+    role: "creator",
 
     user1: {
-        name: "user",
-        role: "developer",
-        bio: "some bio info goes here",
+        name: "AirPods",
+        brand: "Apple",
+        description: "some bio info goes here",
+        features: "",
         bioPic: "apple.png"
-    },
-
-    user2: {
-        name: "user2",
-        role: "designer",
-        bio: "some bio info goes here",
-        bioPic: ""
     }
 };
 
