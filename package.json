@@ -1,9 +1,9 @@
 {
-  "name": "flomen_jaclyn_heroku",
+  "name": "a3-favethings",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
