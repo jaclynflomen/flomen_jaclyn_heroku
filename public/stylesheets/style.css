@@ -23,6 +23,10 @@ body {
     float: none;
     width: 95%;
   }
+
+  #brand {
+    text-align: center;
+  }
 }
 
 
