@@ -5,9 +5,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+#desc, #features, h2 {
+  color: black;
 }
+
 
 @media screen and (max-width: 480px) {
   #appleLogo {
