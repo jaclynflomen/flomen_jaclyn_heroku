@@ -19,8 +19,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-const port = process.env.PORT || 3000;
-
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
@@ -40,7 +38,4 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-// module.exports = app;
-app.listen(port, ()=>{
-  console.log(`app is running @ ${port}`);
-})
+module.exports = app;
