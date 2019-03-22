@@ -1,23 +1,43 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: black;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
 
-#appleLogo {
-  margin-left: 45%;
+@media screen and (min-width: 480px) {
+  #appleLogo {
+    margin-left: 20%;
+  }
+  
+  #productIMG {
+    width: 90%;
+  }
+  
+  #info {
+    float: none;
+    width: 95%;
+  }
 }
 
-#productIMG {
-  width: 40%;
+
+@media screen and (max-width: 480px) {
+  #appleLogo {
+    margin-left: 45%;
+  }
+  
+  #productIMG {
+    width: 40%;
+  }
+  
+  #info {
+    float: right;
+    width: 50%;
+  }
 }
 
-#info {
-  float: right;
-  width: 50%;
-}
+
